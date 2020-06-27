@@ -35,18 +35,21 @@
         </nav>
         <ul class="auth-nav list">
           <li class="item">
-            <svg class="icon-nav" width="16px" height="11px">
-              <use href="./img/sprite.svg#envelope"></use>
-            </svg>
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
-            >
+            <a href="mailto:info@devstudio.com" class="link">
+              <svg class="icon-nav" width="16px" height="11px">
+                <use href="./img/sprite.svg#envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
+
           <li class="item">
-            <svg class="icon-nav" width="10" height="15">
-              <use href="./img/sprite.svg#smartphone"></use>
-            </svg>
-            <a href="tel:+380961111111" class="link">+3 8096 111 11 11</a>
+            <a href="tel:+380961111111" class="link">
+              <svg class="icon-nav" width="10" height="15">
+                <use href="./img/sprite.svg#smartphone"></use>
+              </svg>
+              +3 8096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -275,6 +278,7 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="footer">
       <div class="container footer-content">
         <ul class="list">
@@ -303,25 +307,33 @@
           <li><b class="footer-list-title">Присоединяйтесь</b></li>
           <li>
             <ul class="list social-networks">
-              <li class="icons">
-                <a href="" aria-label="Instagramm link"
-                  ><img src="./img/instagram.svg" alt="instagram"
-                /></a>
-              </li>
-              <li class="icons">
-                <a href="" aria-label="Twitter link"
-                  ><img src="./img/twitter.svg" alt="twitter" />
+              <li>
+                <a href="" aria-label="Instafram link" class="icon-bg-footer">
+                  <svg class="icon-social-networks" width="20" height="20">
+                    <use href="./img/sprite.svg#instagram"></use>
+                  </svg>
                 </a>
               </li>
-              <li class="icons">
-                <a href="" aria-label="Facebook link"
-                  ><img src="./img/facebook.svg" alt="facebook" />
+              <li>
+                <a href="" aria-label="Twitter link" class="icon-bg-footer">
+                  <svg class="icon-social-networks">
+                    <use href="./img/sprite.svg#twitter"></use>
+                  </svg>
                 </a>
               </li>
-              <li class="icons">
-                <a href="" aria-label="linkedin link"
-                  ><img src="./img/linkedin.svg" alt="linkedin"
-                /></a>
+              <li>
+                <a href="" aria-label="Twitter link" class="icon-bg-footer">
+                  <svg class="icon-social-networks">
+                    <use href="./img/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" aria-label="Twitter link" class="icon-bg-footer">
+                  <svg class="icon-social-networks">
+                    <use href="./img/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </li>
@@ -331,13 +343,17 @@
           <b class="footer-list-title">Подпишитесь на рассылку</b>
           <div class="sub-field">
             <a href="" class="e-mail">E-mail</a>
-            <a href="" class="button">Подписаться</a>
+            <a href="" class="button send"
+              >Подписаться
+              <svg width="24" height="24" class="icon-send">
+                <use href="./img/sprite.svg#send"></use></svg
+            ></a>
           </div>
         </div>
       </div>
       <!-- <div class="container">
-        <p class="copyright">2020 &verbar; Developed by GoIT Students</p>
-      </div> -->
+          <p class="copyright">2020 &verbar; Developed by GoIT Students</p>
+        </div> -->
     </footer>
   </body>
 </html>
