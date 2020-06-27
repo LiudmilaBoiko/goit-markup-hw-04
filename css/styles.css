@@ -560,7 +560,6 @@
 }
 .icon-client {
   color: currentColor;
-  /* border: 0px transparent; */
 }
 
 .clients > .item :last-child {
@@ -570,7 +569,9 @@
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
-
+.icon-client:hover {
+  border: none;
+}
 /*Стили для Портфолио*/
 
 .filter-list {
